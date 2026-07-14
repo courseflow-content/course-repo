@@ -22,5 +22,11 @@
     "title": "DevOps",
     "type": "category",
     "configFile": "config/devops/devops.json"
+  },
+  {
+    "id": "interview-prep",
+    "title": "Interview Prep",
+    "type": "category",
+    "configFile": "config/interview-prep/interview-prep.json"
   }
 ]

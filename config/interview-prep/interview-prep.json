@@ -1,0 +1,8 @@
+[
+  {
+    "id": "interview-prep-as",
+    "title": "Amazon Applied Scientist",
+    "type": "subcategory",
+    "configFile": "config/interview-prep/amazon-applied-scientist.json"
+  }
+]
