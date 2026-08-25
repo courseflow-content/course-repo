@@ -4,5 +4,11 @@
     "title": "Amazon Applied Scientist",
     "type": "subcategory",
     "configFile": "config/interview-prep/amazon-applied-scientist.json"
+  },
+  {
+    "id": "interview-prep-candidate",
+    "title": "Candidate Readiness (résumé-based)",
+    "type": "subcategory",
+    "configFile": "config/interview-prep/candidate-readiness.json"
   }
 ]

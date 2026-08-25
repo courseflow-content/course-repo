@@ -1,0 +1,25 @@
+[
+  {
+    "id": "laksh-seth-interview-readiness",
+    "title": "Laksh Seth — Interview Readiness",
+    "type": "course",
+    "description": "Company-independent résumé defence: make every claim on the résumé defensible, route every unbacked number, and build the evidence a campus season will ask for. Season track (6–8 weeks) active.",
+    "author": "Vinod Seth",
+    "thumbnail": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+    "tags": [
+      "Interview Prep",
+      "Candidate Readiness",
+      "Résumé Defence",
+      "Campus Placement",
+      "NLP",
+      "LLM"
+    ],
+    "repository": {
+      "owner": "vinod-seth",
+      "name": "Laksh-Seth-Interview-Readiness",
+      "branch": "main"
+    },
+    "visibility": "private",
+    "visibility_reason": "Candidate-specific: built around one person's resume, metrics and interview record. Not for general publication."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ml-foundations",
+    "title": "ML Foundations — Ten Methods, Built and Defended",
+    "type": "course",
+    "description": "Classical machine learning built from scratch in NumPy, then checked against scikit-learn. Per method: a lesson, an interactive notebook with self-checks, an interview hub of nine questions across three experience tiers, and a spoken rehearsal. Covers linear and logistic regression, kNN, naive Bayes, trees, random forests, gradient boosting, SVM, k-means and PCA. IN PROGRESS: 1 of 10 modules complete.",
+    "author": "Vinod Seth",
+    "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Interview Prep",
+      "scikit-learn",
+      "NumPy",
+      "Regression",
+      "Classification"
+    ],
+    "repository": {
+      "owner": "local",
+      "name": "ml-foundations",
+      "branch": "main"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "llm-finetuning-peft",
+    "title": "Fine-Tuning & PEFT in Depth",
+    "type": "course",
+    "description": "How LoRA, quantisation and QLoRA actually work — the low-rank update, NF4 versus int4, blockwise scaling, adapter placement and the memory budget. Advanced companion to the SLM training course. PROTOTYPE: 1 of 6 lessons written.",
+    "author": "Vinod Seth",
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
+    "tags": [
+      "GenAI",
+      "Fine-Tuning",
+      "PEFT",
+      "LoRA",
+      "QLoRA",
+      "Quantization"
+    ],
+    "repository": {
+      "owner": "local",
+      "name": "llm-finetuning-peft",
+      "branch": "main"
+    },
+    "visibility": "private",
+    "visibility_reason": "Incomplete: 3 of 6 lessons are ~130-word stubs. Unhide once they are written."
+  }
+]

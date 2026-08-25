@@ -10,5 +10,11 @@
     "title": "Data Science using R",
     "type": "subcategory",
     "configFile": "config/data-science/r.json"
+  },
+  {
+    "id": "ds-ml-foundations",
+    "title": "Machine Learning Foundations",
+    "type": "subcategory",
+    "configFile": "config/data-science/ml-foundations.json"
   }
 ]

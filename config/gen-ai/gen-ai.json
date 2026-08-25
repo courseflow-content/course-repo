@@ -10,5 +10,11 @@
     "title": "SLM Development",
     "type": "subcategory",
     "configFile": "config/gen-ai/slm-development.json"
+  },
+  {
+    "id": "llm-finetuning-peft",
+    "title": "Fine-Tuning & PEFT",
+    "type": "subcategory",
+    "configFile": "config/gen-ai/llm-finetuning-peft.json"
   }
 ]

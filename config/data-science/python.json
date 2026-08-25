@@ -6,7 +6,10 @@
     "description": "Intro to Python data structures, syntax, and coding basics.",
     "author": "Alex Chen",
     "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    "tags": ["Python", "Fundamentals"],
+    "tags": [
+      "Python",
+      "Fundamentals"
+    ],
     "repository": {
       "owner": "vinod-seth",
       "name": "PythonBasics",
@@ -20,11 +23,17 @@
     "description": "Learn to build data pipelines using Pandas, PostgreSQL, and Airflow.",
     "author": "Alex Chen",
     "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
-    "tags": ["Python", "ETL", "Pipelines"],
+    "tags": [
+      "Python",
+      "ETL",
+      "Pipelines"
+    ],
     "repository": {
       "owner": "vinod-seth",
       "name": "python-etl-content",
       "branch": "main"
-    }
+    },
+    "visibility": "private",
+    "visibility_reason": "Not yet developed."
   }
 ]

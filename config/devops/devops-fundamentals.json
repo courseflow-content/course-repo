@@ -6,11 +6,19 @@
     "description": "Master DevOps principles, CI/CD pipelines, infrastructure automation, and deployment strategies on Azure. Learn version control workflows, GitHub Actions, Azure Pipelines, environment management, secrets management, monitoring, and real-world scaling patterns.",
     "author": "Vinod Seth",
     "thumbnail": "/devops_thumbnail.png",
-    "tags": ["DevOps", "CI/CD", "Azure", "Infrastructure", "Automation"],
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Azure",
+      "Infrastructure",
+      "Automation"
+    ],
     "repository": {
       "owner": "vinod-seth",
       "name": "devops-fundamentals",
       "branch": "main"
-    }
+    },
+    "visibility": "private",
+    "visibility_reason": "Not yet developed."
   }
 ]

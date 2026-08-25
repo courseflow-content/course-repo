@@ -1,0 +1,148 @@
+{
+  "$comment": "Canonical skill vocabulary. Every course's requires/provides MUST reference an id from this file. The résumé parser normalises free text against `aliases`. Adding a skill is cheap; renaming one is a breaking change for every course that references it.",
+  "version": "0.1",
+  "updated": "2026-08-03",
+  "skills": {
+    "python": {
+      "label": "Python",
+      "aliases": ["python3", "py"],
+      "domain": "tooling"
+    },
+    "pytorch-basics": {
+      "label": "PyTorch fundamentals",
+      "aliases": ["pytorch", "torch"],
+      "domain": "tooling",
+      "requires": ["python"]
+    },
+    "backpropagation": {
+      "label": "Backpropagation and gradient flow",
+      "aliases": ["backprop", "autograd", "gradient descent"],
+      "domain": "deep-learning",
+      "requires": ["python"]
+    },
+    "attention": {
+      "label": "Scaled dot-product attention",
+      "aliases": ["self-attention", "attention mechanism", "scaled dot product attention"],
+      "domain": "transformers",
+      "requires": ["backpropagation"]
+    },
+    "multi-head-attention": {
+      "label": "Multi-head attention",
+      "aliases": ["mha", "multi head attention", "multihead attention"],
+      "domain": "transformers",
+      "requires": ["attention"]
+    },
+    "positional-encoding": {
+      "label": "Positional encoding",
+      "aliases": ["position embeddings", "positional embeddings"],
+      "domain": "transformers",
+      "requires": ["attention"]
+    },
+    "rope": {
+      "label": "Rotary position embedding",
+      "aliases": ["rotary embeddings", "RoPE", "rotary position encoding", "rotary positional embedding"],
+      "domain": "transformers",
+      "requires": ["positional-encoding"]
+    },
+    "layernorm-placement": {
+      "label": "Pre-LN vs Post-LN placement",
+      "aliases": ["pre-layernorm", "pre-ln", "post-ln", "layer normalization placement"],
+      "domain": "transformers",
+      "requires": ["backpropagation"]
+    },
+    "transformer-block": {
+      "label": "The transformer block, end to end",
+      "aliases": ["transformer encoder", "transformer architecture", "from-scratch transformer"],
+      "domain": "transformers",
+      "requires": ["multi-head-attention", "layernorm-placement"]
+    },
+    "tokenisation": {
+      "label": "Tokenisation and vocabulary construction",
+      "aliases": ["tokenizer", "tokenization", "bpe", "byte pair encoding"],
+      "domain": "llm-training"
+    },
+    "pretraining-objective": {
+      "label": "Causal and masked language-modelling objectives",
+      "aliases": ["next token prediction", "causal lm", "mlm", "pretraining"],
+      "domain": "llm-training",
+      "requires": ["transformer-block", "tokenisation"]
+    },
+    "training-loop": {
+      "label": "The training loop: optimisers, schedules, stability",
+      "aliases": ["adamw", "learning rate schedule", "gradient accumulation"],
+      "domain": "llm-training",
+      "requires": ["backpropagation"]
+    },
+    "quantisation": {
+      "label": "Weight quantisation",
+      "aliases": ["quantization", "4-bit", "8-bit", "int8", "int4"],
+      "domain": "efficiency",
+      "requires": ["pytorch-basics"]
+    },
+    "nf4": {
+      "label": "NF4 — normal-float 4-bit quantisation",
+      "aliases": ["normalfloat", "nf4 quantization", "4-bit nf4"],
+      "domain": "efficiency",
+      "requires": ["quantisation"]
+    },
+    "lora": {
+      "label": "Low-rank adaptation",
+      "aliases": ["LoRA", "low rank adaptation", "adapters", "lora adapters"],
+      "domain": "efficiency",
+      "requires": ["transformer-block"]
+    },
+    "qlora": {
+      "label": "QLoRA — LoRA over a quantised base model",
+      "aliases": ["QLoRA", "qlora fine-tuning", "4-bit lora"],
+      "domain": "efficiency",
+      "requires": ["lora", "nf4"]
+    },
+    "memory-arithmetic": {
+      "label": "GPU memory accounting for training",
+      "aliases": ["memory budget", "vram accounting", "gpu memory"],
+      "domain": "efficiency",
+      "requires": ["training-loop", "quantisation"]
+    },
+    "peft-landscape": {
+      "label": "The parameter-efficient fine-tuning landscape",
+      "aliases": ["PEFT", "parameter efficient fine tuning", "prefix tuning", "adapter tuning"],
+      "domain": "efficiency",
+      "requires": ["lora"]
+    },
+    "class-imbalance-metrics": {
+      "label": "Metrics under class imbalance",
+      "aliases": ["macro-f1", "macro f1", "f1 score", "imbalanced classification"],
+      "domain": "evaluation"
+    },
+    "calibration": {
+      "label": "Confidence calibration",
+      "aliases": ["ECE", "expected calibration error", "reliability diagram", "temperature scaling"],
+      "domain": "evaluation",
+      "requires": ["class-imbalance-metrics"]
+    },
+    "contrastive-learning": {
+      "label": "Contrastive objectives and embedding training",
+      "aliases": ["contrastive loss", "infonce", "triplet loss", "embedding training"],
+      "domain": "representation",
+      "requires": ["backpropagation"]
+    },
+    "vector-retrieval": {
+      "label": "Dense retrieval and vector indexing",
+      "aliases": ["FAISS", "vector search", "dense retrieval", "embeddings search"],
+      "domain": "retrieval",
+      "requires": ["contrastive-learning"]
+    },
+    "rag-systems": {
+      "label": "Retrieval-augmented generation pipelines",
+      "aliases": ["RAG", "retrieval augmented generation"],
+      "domain": "retrieval",
+      "requires": ["vector-retrieval", "pretraining-objective"]
+    },
+    "dsa-cpp": {
+      "label": "Data structures and algorithms in C++",
+      "aliases": ["C++", "leetcode", "competitive programming", "DSA"],
+      "domain": "coding",
+      "requires": ["python"]
+    }
+  }
+}

@@ -6,6 +6,12 @@
     "configFile": "config/categories.json"
   },
   {
+    "id": "resume-to-offer",
+    "title": "Résumé to Offer",
+    "type": "navigation",
+    "configFile": "config/interview-prep/candidate-readiness.json"
+  },
+  {
     "id": "poc",
     "title": "POC",
     "type": "navigation",

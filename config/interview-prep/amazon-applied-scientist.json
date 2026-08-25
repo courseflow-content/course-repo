@@ -1,9 +1,9 @@
 [
   {
     "id": "applied-scientist-interview-gauntlet",
-    "title": "The Gauntlet: Applied Scientist Interview Prep (M.Tech Fresher Edition)",
+    "title": "Applied Scientist Interview Prep (M.Tech Fresher Edition)",
     "type": "course",
-    "description": "A gamified, depth-first interview preparation course for entry-level Amazon Applied Scientist roles. 9 sessions covering project defense, ML theory, coding, and behavioral rounds.",
+    "description": "A depth-first interview preparation course for entry-level Amazon Applied Scientist roles. 9 sessions covering project defense, ML theory, coding, and behavioral rounds.",
     "author": "Vinod Seth",
     "thumbnail": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80",
     "tags": [
@@ -20,6 +20,8 @@
       "owner": "vinod-seth",
       "name": "Applied-Scientist-Interview-Gauntlet",
       "branch": "main"
-    }
+    },
+    "visibility": "private",
+    "visibility_reason": "Candidate-specific: drills are built on one candidate's own projects (ESCI, RoPE transformer, DSA count) and name his institution."
   }
 ]
