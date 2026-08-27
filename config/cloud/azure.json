@@ -13,7 +13,7 @@
         "thumbnail": "/genai_thumbnail.png",
         "tags": ["Azure", "AI", "Machine Learning"],
         "repository": {
-          "owner": "vinod-seth",
+          "owner": "courseflow-content",
           "name": "azure-ai-content",
           "branch": "main"
         }
@@ -40,7 +40,7 @@
         "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?w=800&q=80",
         "tags": ["Azure", "Cloud Infrastructure"],
         "repository": {
-          "owner": "vinod-seth",
+          "owner": "courseflow-content",
           "name": "azure-dev-content",
           "branch": "main"
         }

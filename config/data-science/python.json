@@ -11,7 +11,7 @@
       "Fundamentals"
     ],
     "repository": {
-      "owner": "vinod-seth",
+      "owner": "courseflow-content",
       "name": "PythonBasics",
       "branch": "main"
     }
@@ -29,7 +29,7 @@
       "Pipelines"
     ],
     "repository": {
-      "owner": "vinod-seth",
+      "owner": "courseflow-content",
       "name": "python-etl-content",
       "branch": "main"
     },

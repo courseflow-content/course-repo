@@ -8,7 +8,7 @@
     "thumbnail": "/genai_thumbnail.png",
     "tags": ["GenAI", "Prompt Engineering", "LLM"],
     "repository": {
-      "owner": "vinod-seth",
+      "owner": "courseflow-content",
       "name": "Prompt-Engineering-Mastery",
       "branch": "main"
     }
