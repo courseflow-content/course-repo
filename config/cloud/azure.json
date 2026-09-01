@@ -11,12 +11,18 @@
         "description": "Implement cognitive services, Azure OpenAI, and custom AI pipelines.",
         "author": "Sophia Lin",
         "thumbnail": "/genai_thumbnail.png",
-        "tags": ["Azure", "AI", "Machine Learning"],
+        "tags": [
+          "Azure",
+          "AI",
+          "Machine Learning"
+        ],
         "repository": {
           "owner": "courseflow-content",
           "name": "azure-ai-content",
           "branch": "main"
-        }
+        },
+        "visibility": "private",
+        "visibility_reason": "Placeholder seed data: repo courseflow-content/azure-ai-content does not exist, so it 404s for visitors. Create the repo, correct the owner, then remove this flag."
       }
     ]
   },
@@ -38,12 +44,17 @@
         "description": "Master Azure compute, app configuration, databases, and monitoring.",
         "author": "John Doe",
         "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?w=800&q=80",
-        "tags": ["Azure", "Cloud Infrastructure"],
+        "tags": [
+          "Azure",
+          "Cloud Infrastructure"
+        ],
         "repository": {
           "owner": "courseflow-content",
           "name": "azure-dev-content",
           "branch": "main"
-        }
+        },
+        "visibility": "private",
+        "visibility_reason": "Placeholder seed data: repo courseflow-content/azure-dev-content does not exist, so it 404s for visitors. Create the repo, correct the owner, then remove this flag."
       }
     ]
   },
