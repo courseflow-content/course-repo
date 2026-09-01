@@ -19,6 +19,8 @@
       "owner": "local",
       "name": "ml-foundations",
       "branch": "main"
-    }
+    },
+    "visibility": "private",
+    "visibility_reason": "No GitHub repo yet (owner is still 'local'), so it would 404 for visitors. Create vinod-seth/ml-foundations, set owner, then remove this flag."
   }
 ]

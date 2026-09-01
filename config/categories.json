@@ -6,6 +6,12 @@
     "configFile": "config/cloud/cloud.json"
   },
   {
+    "id": "programming",
+    "title": "Programming",
+    "type": "category",
+    "configFile": "config/programming/programming.json"
+  },
+  {
     "id": "data-science",
     "title": "Data Science",
     "type": "category",

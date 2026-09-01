@@ -1,7 +1,13 @@
 [
   {
+    "id": "ds-python-ref",
+    "title": "Python",
+    "type": "subcategory",
+    "configFile": "config/programming/python.json"
+  },
+  {
     "id": "ds-python",
-    "title": "Data Science using Python",
+    "title": "Python for Data Science",
     "type": "subcategory",
     "configFile": "config/data-science/python.json"
   },

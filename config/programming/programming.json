@@ -1,0 +1,8 @@
+[
+  {
+    "id": "prog-python",
+    "title": "Python",
+    "type": "subcategory",
+    "configFile": "config/programming/python.json"
+  }
+]

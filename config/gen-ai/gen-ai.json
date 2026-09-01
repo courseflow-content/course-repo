@@ -1,5 +1,11 @@
 [
   {
+    "id": "genai-python-ref",
+    "title": "Python",
+    "type": "subcategory",
+    "configFile": "config/programming/python.json"
+  },
+  {
     "id": "prompt-engineering",
     "title": "Prompt Engineering",
     "type": "subcategory",

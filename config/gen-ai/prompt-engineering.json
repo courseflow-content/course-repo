@@ -6,9 +6,13 @@
     "description": "Master prompt engineering techniques, persona patterns, and anatomy of a perfect prompt.",
     "author": "Vinod Seth",
     "thumbnail": "/genai_thumbnail.png",
-    "tags": ["GenAI", "Prompt Engineering", "LLM"],
+    "tags": [
+      "GenAI",
+      "Prompt Engineering",
+      "LLM"
+    ],
     "repository": {
-      "owner": "courseflow-content",
+      "owner": "vinod-seth",
       "name": "Prompt-Engineering-Mastery",
       "branch": "main"
     }

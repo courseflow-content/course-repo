@@ -1,22 +1,5 @@
 [
   {
-    "id": "ds-python-basics",
-    "title": "Python Basics",
-    "type": "course",
-    "description": "Intro to Python data structures, syntax, and coding basics.",
-    "author": "Alex Chen",
-    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    "tags": [
-      "Python",
-      "Fundamentals"
-    ],
-    "repository": {
-      "owner": "courseflow-content",
-      "name": "PythonBasics",
-      "branch": "main"
-    }
-  },
-  {
     "id": "ds-python-etl",
     "title": "ETL Processes",
     "type": "course",
