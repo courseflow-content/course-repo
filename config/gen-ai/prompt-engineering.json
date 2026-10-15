@@ -21,7 +21,7 @@
     "id": "prompt-engineering-for-developers",
     "title": "Prompt Engineering for Developers",
     "type": "course",
-    "description": "Build production LLM features with code for Anthropic, OpenAI and Google: prompts as code, few-shot selection, reasoning controls, RAG with validated citations, injection defence, structured outputs and tools, chains with caching, and evaluation harnesses. Every lesson has a reader, a runnable lab and an interview hub.",
+    "description": "Build production LLM features in Python, JavaScript or Java, for Claude, OpenAI, Gemini and DeepSeek: prompts as code, few-shot selection, reasoning controls, RAG with validated citations, injection defence, structured outputs and tools, chains with caching, and evaluation harnesses. Every lesson has a reader, a runnable lab and an interview hub.",
     "author": "Vinod Seth",
     "thumbnail": "/genai_thumbnail.png",
     "tags": [
@@ -29,6 +29,8 @@
       "Prompt Engineering",
       "LLM",
       "Python",
+      "JavaScript",
+      "Java",
       "RAG",
       "Evaluation"
     ],
