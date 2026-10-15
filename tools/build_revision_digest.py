@@ -152,7 +152,7 @@ def build(cand_dir, mode="revise", only=None):
         refs = [r for r in refs if r[1] == only]
 
     own, fills = [], 0
-    for rel, wanted in [("PROGRESS.md", ["## 🟢 Defensibility Ledger", "## 🟢 Metric Vault"]),
+    for rel, wanted in [("PROGRESS.md", ["## Defensibility Ledger", "## Metric Vault"]),
                         ("defence/01_qlora_finetune.md",
                          ["## 🔷 What Is Yours to Defend", "## 🔷 The Five Follow-Ups"])]:
         p = os.path.join(cand_dir, rel)
@@ -163,7 +163,7 @@ def build(cand_dir, mode="revise", only=None):
             sec = extract_section(txt, h)
             if sec:
                 sec = rebase_links(sec, p, os.path.join(cand_dir, "revision"))
-                own.append((h.split("· ")[-1].lstrip("# 🟢🔷 "), rel, sec))
+                own.append((h.split("· ")[-1].lstrip("# 🔷 "), rel, sec))
                 fills += len(re.findall(r"\[FILL[^\]]*\]", sec))
 
     if only:
