@@ -16,5 +16,26 @@
       "name": "Prompt-Engineering-Mastery",
       "branch": "main"
     }
+  },
+  {
+    "id": "prompt-engineering-for-developers",
+    "title": "Prompt Engineering for Developers",
+    "type": "course",
+    "description": "Build production LLM features with code for Anthropic, OpenAI and Google: prompts as code, few-shot selection, reasoning controls, RAG with validated citations, injection defence, structured outputs and tools, chains with caching, and evaluation harnesses. Every lesson has a reader, a runnable lab and an interview hub.",
+    "author": "Vinod Seth",
+    "thumbnail": "/genai_thumbnail.png",
+    "tags": [
+      "GenAI",
+      "Prompt Engineering",
+      "LLM",
+      "Python",
+      "RAG",
+      "Evaluation"
+    ],
+    "repository": {
+      "owner": "courseflow-content",
+      "name": "Prompt-Engineering-for-Developers",
+      "branch": "main"
+    }
   }
 ]
