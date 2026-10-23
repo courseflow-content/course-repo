@@ -12,6 +12,12 @@
     "configFile": "config/gen-ai/prompt-engineering.json"
   },
   {
+    "id": "ai-agents",
+    "title": "AI Agents",
+    "type": "subcategory",
+    "configFile": "config/gen-ai/agents.json"
+  },
+  {
     "id": "slm-development",
     "title": "SLM Development",
     "type": "subcategory",

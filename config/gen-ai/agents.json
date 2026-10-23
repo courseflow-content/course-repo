@@ -1,0 +1,25 @@
+[
+  {
+    "id": "production-grade-agents",
+    "title": "Building Production-Grade Agents",
+    "type": "course",
+    "description": "Take a support agent for the fictional store Parcelpine from a one-hour demo to a release you can trust: launch-day triage, eval gates, tools, context and memory, retrieval, orchestration, security and a local release pipeline. Code in Python, JavaScript or Java for Claude, OpenAI, Gemini and DeepSeek; every lesson has a reader, a runnable lab and an interview hub.",
+    "author": "Vinod Seth",
+    "thumbnail": "/genai_thumbnail.png",
+    "tags": [
+      "GenAI",
+      "AI Agents",
+      "LLM",
+      "Python",
+      "JavaScript",
+      "Java",
+      "Evaluation",
+      "Agent Security"
+    ],
+    "repository": {
+      "owner": "vinod-seth",
+      "name": "Production-Grade-Agents",
+      "branch": "main"
+    }
+  }
+]
