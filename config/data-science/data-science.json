@@ -22,5 +22,11 @@
     "title": "Machine Learning Foundations",
     "type": "subcategory",
     "configFile": "config/data-science/ml-foundations.json"
+  },
+  {
+    "id": "ds-genai",
+    "title": "Data Science & Generative AI",
+    "type": "subcategory",
+    "configFile": "config/data-science/ds-genai.json"
   }
 ]
